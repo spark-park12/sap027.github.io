@@ -1,0 +1,170 @@
+#html{
+    scroll-behavior: smooth;
+}
+
+#background {
+    background-image: linear-gradient(45deg,#ffbd68,#EA8D8D,#5151c3,#A890FE,#EA8D8D);  
+}
+
+#intro{
+    margin-bottom: 200px;   
+}
+
+h1{
+ font-family:'ADLam Display', sans-serif; 
+ text-align: center;
+ color: #ffffff;
+ font-size: 7rem;
+ line-height: 1;
+ padding: 200px 10px 20px 10px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.5rem;
+    color:#ffff;
+    text-align: center;
+    letter-spacing: 2px;
+    opacity: 50%;
+}
+
+h3{
+    font-family:'Open Sans', sans-serif; 
+    color:#ffff;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding: 50px 10px 40px 10px;
+}
+
+hr{
+    border-top: 5px solid white;
+    opacity: 50%;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    padding:30px 0 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    color:#ffffff;
+}
+
+h5{
+    font-family:'ADLam Display', sans-serif; 
+    color: #ffff;
+}
+
+h6{
+    font-family:'ADLam Display', sans-serif; 
+    text-align: center;
+    color: #ffffff;
+    font-size: 5rem;
+    line-height: 1;
+    padding: 50px 30px 20px 30px;
+}
+
+p{
+    color: #ffffff;
+    opacity: 70%;
+}
+
+/* navbar */
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    opacity: 70%;
+    text-align:end;
+}
+
+.navbar-brand img{
+    width:100px;
+}
+
+.navbar-item.active a{
+    font-weight: bold;
+}
+
+.navbar-collapse{
+    padding: 10px 25px;
+}
+
+/* work cards */
+.card{
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    border-style:hidden;
+    padding: 0 2px;
+}
+
+.btn-primary{
+    background-color:#da9797;
+}
+
+.btn-primary:hover{
+    background-color:#A890FE;
+}
+
+/* carousel */
+.carousel-item img {
+    border-radius: 10%;
+    opacity:80%;
+}
+
+.media-body{
+    padding: 10px 20px 30px 20px;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.icon{
+    font-size: x-large;
+    color:#e4b2ff;
+    opacity: 80%;
+    padding: 15px;
+}
+
+#contact {
+    text-align: center;
+}
+
+/* Footer Secion */
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.contact-icon{
+    margin: 30px 5px 10px 5px;
+    font-size:x-large;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.btn-default{
+    border: 2px solid white;
+}
+
+.btn-default:hover{
+    border: 2px solid #EA8D8D;
+    background-color: #EA8D8D;
+}
+
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
